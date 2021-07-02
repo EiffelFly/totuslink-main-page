@@ -18,7 +18,7 @@ export const SubHeader: React.FC = () => {
         Totuslink try to light up the path with one approach:
       </div>
       <div
-        className="mt-4 font-bold"
+        className="mt-8 font-bold"
       >
         Remove list structure.
       </div>

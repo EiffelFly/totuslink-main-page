@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-totuslinkmainpage-dev-215101-authRole",
+      "UnauthRoleArn": "arn:aws:iam::017122899402:role/amplify-totuslinkmainpage-dev-215101-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::017122899402:role/amplify-totuslinkmainpage-dev-215101-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-totuslinkmainpage-dev-215101-deployment",
+      "UnauthRoleName": "amplify-totuslinkmainpage-dev-215101-unauthRole",
+      "StackName": "amplify-totuslinkmainpage-dev-215101",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:017122899402:stack/amplify-totuslinkmainpage-dev-215101/8d557200-db3c-11eb-a972-0687727c192e",
+      "AmplifyAppId": "dhwc362vctbcw"
+    }
+  }
+}
