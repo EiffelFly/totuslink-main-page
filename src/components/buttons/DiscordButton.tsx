@@ -7,15 +7,17 @@ interface buttonProps {
 }
 
 export const DiscordButton: React.FC<buttonProps> = (props) => {
-  const buttonStyle = `w-${props.size + 3} h-${props.size + 3}`;
+  const buttonStyle = `w-${props.size} h-${props.size}`;
   return (
-    <button
-      className = { buttonStyle + " hover:bg-sd-white rounded-md m-auto" }
+    <a
+      href="https://discord.gg/3FM8KXCAmB"
+      target="_blank"
+      rel="noopener noreferrer"
+      className = { buttonStyle + " flex hover:bg-sd-white rounded-md m-auto" }
     >
       <DiscordIcon
-        size={props.size}
+        size={props.size-3}
       />     
-    </button>
-  
+    </a>
   )
 }
