@@ -4,7 +4,7 @@ import { UseHologramButton } from "./buttons/UseHologramButton";
 export const Navbar:React.FC = () => {
   return (
     <div
-      className="h-16 flex flex-row w-full px-6"
+      className="h-16 flex flex-row w-full px-6 flex-shrink-0"
     >
       <div
         className="flex flex-row mr-auto"
