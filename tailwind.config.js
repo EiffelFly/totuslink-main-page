@@ -4,14 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'sd-base03-brblack': '#002B36',
-        'sd-base02-black': '#073642',
-        'sd-base01-brgreen': '#586e75',
-        'sd-base00-bryellow': '#657b83',
-        'sd-base0-brblue': '#839496',
-        'sd-base1-brcyan': '#93a1a1',
-        'sd-base2-white': '#eee8d5',
-        'sd-base3-brwhite': '#fdf6e3',
+        'sd-brblack': '#002B36',
+        'sd-black': '#073642',
+        'sd-brgreen': '#586e75',
+        'sd-bryellow': '#657b83',
+        'sd-brblue': '#839496',
+        'sd-brcyan': '#93a1a1',
+        'sd-white': '#eee8d5',
+        'sd-brwhite': '#fdf6e3',
         'sd-yellow': '#b58900',
         'sd-orange': '#cb4b16',
         'sd-red': '#d30102',
