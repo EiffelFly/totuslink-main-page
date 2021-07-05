@@ -23,9 +23,6 @@ export const Navbar:React.FC = () => {
           size={8} 
         />
       </div>
-      <div className="w-8">
-        test
-      </div>
     </div>
   )
 }
