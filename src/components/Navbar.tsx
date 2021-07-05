@@ -4,13 +4,13 @@ import { UseHologramButton } from "./buttons/UseHologramButton";
 export const Navbar:React.FC = () => {
   return (
     <div
-      className="h-16 flex flex-row w-full px-6 flex-shrink-0"
+      className="flex flex-row flex-shrink-0 w-full h-16 px-6"
     >
       <div
         className="flex flex-row mr-auto"
       >
         <div
-          className="my-auto font-sans font-bold text-sd-black text-xl mr-16"
+          className="my-auto mr-16 font-sans text-xl font-bold text-sd-black"
         >
           Totuslink 
         </div> 
@@ -22,7 +22,9 @@ export const Navbar:React.FC = () => {
         <DiscordButton
           size={8} 
         />
-        
+      </div>
+      <div className="w-8">
+        test
       </div>
     </div>
   )
